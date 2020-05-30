@@ -24,7 +24,6 @@ public class QuoteConfig {
 		return builder.build();
 	}
 	
-	
 	@Bean
 	public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
 		return args -> {
